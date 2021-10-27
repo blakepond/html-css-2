@@ -1,0 +1,74 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-box {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+    width: 750px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+.second-box {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-style: dotted;
+    box-sizing: border-box;
+    height: 200px;
+    width: 750px;
+    margin: 10px;
+  
+}
+
+.third-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item1 {
+    
+    height: 100px;
+    width: 35px;
+    margin: 5px;
+    position: relative;
+    box-sizing: content-box;
+    background-color: rgb(151, 90, 250)
+}
+.item2{
+    position:static;
+   margin:5px;
+    height: 180px;
+    width: 300px;
+    background-color: green; 
+}
+.item3{
+    background: lightblue;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin:5px;
+}
+#item4{
+    height: 150px;
+    width:650px;
+    background-color:rgb(253, 253, 206);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
